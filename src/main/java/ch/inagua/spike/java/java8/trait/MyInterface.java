@@ -11,4 +11,9 @@ public interface MyInterface {
         return "Hello from Interface";
     }
 
+    // Not overridden by method of child class with same signature
+    static int compute(int a, int b) {
+        // System.out.println("INTERFACE");
+        return a + b;
+    }
 }

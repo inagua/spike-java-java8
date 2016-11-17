@@ -9,4 +9,9 @@ public class MyClass implements MyInterface {
         return "Hello from Class";
     }
 
+    // Do not override static method of interface with same signature
+    int compute(int a, int b) {
+        // System.out.println("CLASS");
+        return a * b;
+    }
 }

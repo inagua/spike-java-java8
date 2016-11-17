@@ -50,4 +50,10 @@ public class TraitTest {
             assertThat(myInterface.doItWithDefault(), equalTo("Hello from Interface overriden in Class"));
         }
    }
+
+    @Test
+    public void test_staticMethod() throws Exception {
+        assertThat(MyInterface.compute(2, 3), equalTo(2 + 3));
+        assertThat(new MyClass().compute(2, 3), equalTo(2 * 3));
+   }
 }
