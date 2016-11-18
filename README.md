@@ -9,8 +9,8 @@ Part of all my Java projects: [https://github.com/inagua?tab=repositories&q=spik
 
 # TODO
 
-- [x] Traits > `default` method
-- [x] Traits > `static` method
+- [x] Traits > `default` method ([sources](https://github.com/inagua/spike-java-java8/blob/master/src/test/java/ch/inagua/spike/java/java8/trait/TraitTest.java))
+- [x] Traits > `static` method ([sources](https://github.com/inagua/spike-java-java8/blob/master/src/test/java/ch/inagua/spike/java/java8/trait/TraitTest.java))
 - [ ] Lambda
 - [ ] Functions
 - [ ] Stream
